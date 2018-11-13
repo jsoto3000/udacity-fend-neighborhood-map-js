@@ -44,7 +44,7 @@ export class ToggleButton extends React.Component {
 
         if (this.isToggled()) {
             return (
-                <div onClick={this.handleClick} className="sb-toggle on">
+                <div onClick={this.handleClick} className="sb-toggle on" tabindex="0">
                 <i className={this.getIconClass()}></i>
                 <span> {this.props.text}</span>
                 </div>
@@ -52,7 +52,7 @@ export class ToggleButton extends React.Component {
         }
 
         return (
-        <div onClick={this.handleClick} className="sb-toggle off">
+        <div onClick={this.handleClick} className="sb-toggle off" tabindex="-1">
         <i className={this.getIconClass()}></i>
         <span> {this.props.text}</span>
         </div>
