@@ -1,4 +1,3 @@
-// Author: Lucas Klassmann, <lucasklassmann@gmail.com>
 
 import React from 'react';
 import ReactDOM from 'react-dom';

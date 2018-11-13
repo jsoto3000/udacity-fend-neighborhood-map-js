@@ -1,11 +1,7 @@
-// Author: https://github.com/auser
-// https://gist.github.com/auser/1d55aa3897f15d17caf21dc39b85b663#file-googleapicomponent-js
 
 import React from 'react';
 import cache from './ScriptCache';
 import GoogleApi from './GoogleApi';
-
-// const defaultMapConfig = {}
 
 // Responsible for Wrapping a component with scriptcache
 export const wrapper = (options) => (WrappedComponent) => {

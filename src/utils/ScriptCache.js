@@ -1,5 +1,3 @@
-// Author: https://github.com/auser
-// https://gist.github.com/auser/1d55aa3897f15d17caf21dc39b85b663#file-scriptcache-js
 
 let counter = 0;
 let scriptMap = new Map();

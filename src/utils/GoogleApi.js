@@ -1,5 +1,4 @@
-// Author: https://github.com/auser
-// https://gist.github.com/auser/1d55aa3897f15d17caf21dc39b85b663#file-googleapi-js
+
 
 
 // Responsible for generate the Google API url
@@ -12,14 +11,10 @@ export const GoogleApi = function(opts) {
     const URL = 'https://maps.googleapis.com/maps/api/js';
   
     const googleVersion = '3';
-    // let script = null;
-    // let google = window.google = null;
-    // let loading = false;
     let channel = null;
     let language = null;
     let region = null;
   
-    // let onLoadEvents = [];
   
     const url = () => {
       let url = URL;

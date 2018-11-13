@@ -1,4 +1,4 @@
-// Author: Lucas Klassmann, <lucasklassmann@gmail.com>
+
 
 import React from 'react';
 
@@ -95,8 +95,6 @@ export class InfoWindow extends React.Component {
         let { url } = this.state;
         let { foursquareLoaded } = this.state;
         let { foursquareError } = this.state;
-        // let { phone } = this.state;
-        // let { formattedPhone } = this.state;
         let { photo } = this.state;
 
         var facebookTemplate = "";

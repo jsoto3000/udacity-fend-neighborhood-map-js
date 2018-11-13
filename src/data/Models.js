@@ -1,4 +1,4 @@
-// Author: Lucas Klassmann, <lucasklassmann@gmail.com>
+
 
 import { getDetail as fsDetail } from '../providers/Foursquare';
 

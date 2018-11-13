@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-// Component responsible for control sidebar menu
+// Component responsible for control of the sidebar menu
 export class SidebarMenu extends React.Component {
     
     constructor(props) {

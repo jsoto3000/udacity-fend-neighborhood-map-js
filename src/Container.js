@@ -1,4 +1,3 @@
-// Author: Lucas Klassmann, <lucasklassmann@gmail.com>
 
 import React from 'react';
 import { Map } from './map/Map';
@@ -62,8 +61,8 @@ export class Container extends React.Component {
             );
         }
 
-        // Focus in the middle of places -- Tosca Restaurant
-        let centerMap = { lat: 45.418880828620146, lng: -75.69674170798635 };
+        // Focus in the middle of places -- The Brass House Restaurant
+        let centerMap = { lat: 41.540571, lng:  -73.044861 };
 
         return (
             <Map style={style} centerMap={centerMap} google={this.props.google}>
@@ -74,5 +73,5 @@ export class Container extends React.Component {
 }
 
 export default GoogleApiComponent({
-    apiKey: ''
+    apiKey: 'AIzaSyAb89c6mjpFt1nRjUPoavuq5WshB2sEbqw'
 })(Container);
