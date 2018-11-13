@@ -1,8 +1,12 @@
+#Udacity FEND Neighborhood Map
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project shows a map of the Waterbury, Connecticut neighborhood and its interesting sights. It leverages google maps and foursquare to provide a useful map and relevant information about the places.
 
 ## Available Scripts
 
-In the project directory, you can run:
+After cloning the repository, in the project directory, you can run:
 
 ### `npm start`
 
