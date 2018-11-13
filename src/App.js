@@ -171,7 +171,7 @@ class App extends Component {
       <div>
         <div className={this.sideBarStatus('sb-header')}>
           <SidebarMenu onClick={() => {this.toggleSidebar()}} />
-          <div className="sb-app-title">Neighborhood Map</div>
+          <div className="sb-app-title">Waterbury Connecticut Neighborhood Map</div>
         </div>
         <div className={this.sideBarStatus('sb-detail')}>
           <div className="sb-help">
