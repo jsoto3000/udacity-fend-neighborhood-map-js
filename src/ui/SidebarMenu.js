@@ -15,7 +15,7 @@ export class SidebarMenu extends React.Component {
     
     render() {
         return (
-            <div onClick={this.onClick} className="sb-menu" tabindex="1" arial-label ='menu'>
+            <div onClick={this.onClick} className="sb-menu" tabIndex="1" arial-label ='menu'>
                 <span></span>
                 <span></span>
                 <span></span>
